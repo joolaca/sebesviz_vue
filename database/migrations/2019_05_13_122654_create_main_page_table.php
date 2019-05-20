@@ -17,15 +17,19 @@ class CreateMainPageTable extends Migration
             $table->increments('id');
             $table->timestamps();
             $table->string('type');
-            $table->string('title');
-            $table->string('title2');
-            $table->string('content');
-            $table->string('content2');
-            $table->string('button');
-            $table->string('button2');
-            $table->string('button3');
-            $table->string('img');
-            $table->string('img2');
+            $table->integer('sequence');
+            $table->string('title')->nullable();
+            $table->string('title2')->nullable();
+            $table->string('content')->nullable();
+            $table->string('content2')->nullable();
+            $table->string('btn_name')->nullable();
+            $table->string('btn_name2')->nullable();
+            $table->string('btn_name3')->nullable();
+            $table->string('btn_href')->nullable();
+            $table->string('btn_href2')->nullable();
+            $table->string('btn_href3')->nullable();
+            $table->string('img')->nullable();
+            $table->string('img2')->nullable();
         });
     }
 

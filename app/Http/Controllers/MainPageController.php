@@ -16,7 +16,10 @@ class MainPageController extends Controller
 
     public function getMainPageElemet(Request $request)
     {
-        $element = MainPage::findOrFail($request->id);
+        $element = MainPage::
+            where('type', $request->type)
+            ->where('sequence', $request->sequence)
+            ->first();
         return response()->json($element);
     }
 

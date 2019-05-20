@@ -35,7 +35,7 @@ Route::group([
         Route::get('main', [
             'as' => 'admin.pages.main', 'uses' => 'MainPageController@index'
         ]);
-        Route::get('get_main_page_elemet/{id}', [
+        Route::post('get_main_page_elemet', [
             'as' => 'admin.pages.get_main_page_elemet', 'uses' => 'MainPageController@getMainPageElemet'
         ]);
     });
@@ -44,7 +44,7 @@ Route::group([
     //----------------------------------
 
     Route::get('/', [
-        'as' => 'admin.dashboard', 'uses' => 'DashboardController@index'
+        'as' => 'admin.pages.main', 'uses' => 'MainPageController@index'
     ]);
 
     Route::get('/dashboard/basic', [

@@ -88,8 +88,14 @@ mix.combine([
     processCssUrls: false
 })
 
-.version();
-
+.version()
+.webpackConfig({
+    resolve:{
+      alias:{
+        '@' : __dirname+'/resources'
+      }
+    }
+});
 /*
 |--------------------------------------------------------------------------
 | Front

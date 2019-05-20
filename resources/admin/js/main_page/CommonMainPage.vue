@@ -52,6 +52,33 @@
         mounted () {
         },
         methods: {
+            showMainPageElementModal(element) {
+
+                let currentObj = this;
+                let url = '/admin/pages/get_main_page_elemet';
+                axios.post(url, element)
+                .then(function (response) {
+                    vm.mainPageElement.title = response.data.title
+                })
+                .catch(function (error) {
+                    console.log('<DEBUG>  error', error);
+                });
+                $('#myModal').modal()
+            },
+            formSubmit(e) {
+                e.preventDefault();
+                let currentObj = this;
+                this.axios.post('http://localhost:8000/yourPostApi', {
+                    name: this.name,
+                    description: this.description
+                })
+                .then(function (response) {
+                    currentObj.output = response.data;
+                })
+                .catch(function (error) {
+                    currentObj.output = error;
+                });
+            },
             showModal() {
                 let vm = this;
                 let url = '/admin/pages/get_main_page_elemet/1';
@@ -60,31 +87,8 @@
                     vm.mainPageElement.title = response.data.title
                 })
 
-
-                /*axios.post(url, vm.newTodo).then(
-                    function (request) {
-                        // toastr['success'](request.data, "Success");
-
-                        vm.todos.push({
-                            id: request.data.todo.id,
-                            title: request.data.todo.title,
-                            completed: false
-                        })
-                        vm.newTodo = {
-                            id: '',
-                            title: '',
-                            completed: false
-                        }
-                    },
-                    function (error) {
-                        alert(error)
-                    }
-                )*/
-
-                // let element = this.$refs.modal.$el
-                // $(element).modal('show')
                 $('#myModal').modal()
-            }
+            },
         }
     }
 </script>

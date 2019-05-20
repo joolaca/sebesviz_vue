@@ -1,46 +1,65 @@
 
 <template>
+
+
     <!-- Recommendation Admin-->
     <div class="card">
         <div class="card-body">
-            <h1>Recommendation Admin Vagyok</h1>
-            <img style="width:100%" src="/assets/admin/img/front_sections/recommendation.jpg" alt="">
-
-            <div id="svg-container">
-                <svg width='100%' height='100%' viewBox="0 0 100 100"
-                     preserveAspectRatio="none">
+            <h3>Recommendation1 Admin Vagyok</h3>
+            <laca_test message="req ből való vagyok"></laca_test>
 
 
-                    <polygon points="0,0 0,100 33,100 33,0"></polygon>
-                </svg>
-            </div>
+            <button @click="showMainPageElementModal(recommendation1_1)">egyes Recommendation</button>
+            <img  src="/assets/admin/img/front_sections/350x400/recommendation1_1.jpg" alt="">
+
         </div>
     </div>
 
 </template>
 
-<style>
-
-    #svg-container {
-        width: 100%;
-        height: 400px;
-
-        background-image:url("/assets/admin/img/front_sections/recommendation.jpg");
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-    }
-    polygon {
-        stroke: black;
-        stroke-width:1;
-        fill: #8FF;
-        vector-effect: non-scaling-stroke;
-    }
-</style>
 
 <script>
-    import CommonMainPage from './CommonMainPage.vue'
-    export default {
-        extends: CommonMainPage,
 
+    import CommonMainPage from './CommonMainPage.vue'
+
+    import LacaTest from '@/front/main_page/Recommendation/recommendation_element.vue'
+
+
+    export default {
+        extends: CommonMainPage,LacaTest,
+        data () {
+
+            let recommendation1=[];;
+            var i;
+            for (i = 0; i < 6; i++) {
+                recommendation1[i] = {
+                    sequence: i,
+                    type: 'recommendation_1'
+                };
+            }
+            return {
+                recommendation1,
+
+            }
+        },
+        components: {
+            'laca_test': LacaTest
+        },
+        created: function () {
+            // Alias the component instance as `vm`, so that we
+            // can access it inside the promise function
+            var vm = this
+            // Fetch our array of posts from an API
+            fetch('https://jsonplaceholder.typicode.com/posts')
+                .then(function (response) {
+                    return response.json()
+                })
+                .then(function (data) {
+                    vm.posts = data
+                })
+        }
     }
+
+    
+
 </script>

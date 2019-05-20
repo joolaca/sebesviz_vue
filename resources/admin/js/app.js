@@ -47,7 +47,6 @@ window.Vue.component('common_main_page', CommonMainPage)
 
 
 
-
 let app = new window.Vue({
   el: '#app'
 })

@@ -2175,60 +2175,60 @@ var smtpComponent = {
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":false}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/admin/js/apps/TodosApp.vue":
+/***/ "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/admin/js/apps/TodosApp.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/css-base.js")(true);
 // imports
 
 
 // module
-exports.push([module.i, "\n.todo-container {\n  background-color: #ffde00;\n  padding: 50px;\n  min-height: 500px;\n}\n.todo-field:focus {\n  border: 1px solid #ccc;\n}\n.todo-title {\n  font-family: \"Roboto\", sans-serif;\n  font-weight: lighter;\n  text-align: center;\n}\n.todo-block h6 {\n  text-align: center;\n  text-transform: uppercase;\n  color: gray;\n}\n.remove-link {\n  color: #f35a3d;\n  position: absolute;\n  top: 0;\n  line-height: 50px;\n  right: 5px;\n}\n.remove-link:hover {\n  color: #f35a3d;\n}\n.todo-block {\n  background: #fff;\n  padding: 0.375rem 0.75rem;\n  margin-top: 30px;\n  height: 200px;\n  overflow: auto;\n}\n.todo-list {\n  list-style: none;\n  padding: 0;\n  font-size: 20px;\n}\n.todo-list li {\n  border-bottom: 1px solid #d9d9d9;\n  padding: 10px;\n  position: relative;\n}\n.todo-list li label {\n  padding-left: 70px;\n  margin: 0;\n  color: #333;\n}\n.todo-list li input[type=\"checkbox\"] {\n  outline: none;\n  text-align: center;\n  width: 40px;\n  height: 40px;\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  margin: auto 0;\n  border: none;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n       appearance: none;\n}\n.todo-list li .toggle:after {\n  content: url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" viewBox=\"-10 -18 100 135\"><circle cx=\"50\" cy=\"50\" r=\"50\" fill=\"none\" stroke=\"#333\" stroke-width=\"3\"/></svg>');\n}\n.todo-list li .toggle:checked:after {\n  content: url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" viewBox=\"-10 -18 100 135\"><circle cx=\"50\" cy=\"50\" r=\"50\" fill=\"none\" stroke=\"#333\" stroke-width=\"3\"/><path fill=\"#4fc47f\" d=\"M72 25L42 71 27 56l-4 4 20 20 34-52z\"/></svg>');\n}\n@media (max-width: 768px) {\n.todos-container {\n    display: none;\n}\n}\n", ""]);
+exports.push([module.i, "\n.todo-container {\n  background-color: #ffde00;\n  padding: 50px;\n  min-height: 500px;\n}\n.todo-field:focus {\n  border: 1px solid #ccc;\n}\n.todo-title {\n  font-family: \"Roboto\", sans-serif;\n  font-weight: lighter;\n  text-align: center;\n}\n.todo-block h6 {\n  text-align: center;\n  text-transform: uppercase;\n  color: gray;\n}\n.remove-link {\n  color: #f35a3d;\n  position: absolute;\n  top: 0;\n  line-height: 50px;\n  right: 5px;\n}\n.remove-link:hover {\n  color: #f35a3d;\n}\n.todo-block {\n  background: #fff;\n  padding: 0.375rem 0.75rem;\n  margin-top: 30px;\n  height: 200px;\n  overflow: auto;\n}\n.todo-list {\n  list-style: none;\n  padding: 0;\n  font-size: 20px;\n}\n.todo-list li {\n  border-bottom: 1px solid #d9d9d9;\n  padding: 10px;\n  position: relative;\n}\n.todo-list li label {\n  padding-left: 70px;\n  margin: 0;\n  color: #333;\n}\n.todo-list li input[type=\"checkbox\"] {\n  outline: none;\n  text-align: center;\n  width: 40px;\n  height: 40px;\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  margin: auto 0;\n  border: none;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n       appearance: none;\n}\n.todo-list li .toggle:after {\n  content: url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" viewBox=\"-10 -18 100 135\"><circle cx=\"50\" cy=\"50\" r=\"50\" fill=\"none\" stroke=\"#333\" stroke-width=\"3\"/></svg>');\n}\n.todo-list li .toggle:checked:after {\n  content: url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" viewBox=\"-10 -18 100 135\"><circle cx=\"50\" cy=\"50\" r=\"50\" fill=\"none\" stroke=\"#333\" stroke-width=\"3\"/><path fill=\"#4fc47f\" d=\"M72 25L42 71 27 56l-4 4 20 20 34-52z\"/></svg>');\n}\n@media (max-width: 768px) {\n.todos-container {\n    display: none;\n}\n}\n", "", {"version":3,"sources":["C:/laca/project/sebesviz_vue/resources/admin/js/apps/TodosApp.vue"],"names":[],"mappings":";AAkHA;EACA,0BAAA;EACA,cAAA;EACA,kBAAA;CACA;AAEA;EACA,uBAAA;CACA;AAEA;EACA,kCAAA;EACA,qBAAA;EACA,mBAAA;CACA;AAEA;EACA,mBAAA;EACA,0BAAA;EACA,YAAA;CACA;AAEA;EACA,eAAA;EACA,mBAAA;EACA,OAAA;EACA,kBAAA;EACA,WAAA;CACA;AAEA;EACA,eAAA;CACA;AAEA;EACA,iBAAA;EACA,0BAAA;EACA,iBAAA;EACA,cAAA;EACA,eAAA;CACA;AAEA;EACA,iBAAA;EACA,WAAA;EACA,gBAAA;CACA;AAEA;EACA,iCAAA;EACA,cAAA;EACA,mBAAA;CACA;AAEA;EACA,mBAAA;EACA,UAAA;EACA,YAAA;CACA;AAEA;EACA,cAAA;EACA,mBAAA;EACA,YAAA;EACA,aAAA;EACA,mBAAA;EACA,OAAA;EACA,UAAA;EACA,eAAA;EACA,aAAA;EACA,yBAAA;EACA,sBAAA;OAAA,iBAAA;CACA;AAEA;EACA,mNAAA;CACA;AAEA;EACA,kRAAA;CACA;AAEA;AACA;IACA,cAAA;CACA;CACA","file":"TodosApp.vue","sourcesContent":["<template>\n  <div class=\"todo-container mx-auto col-lg-6 \">\n    <h5 class=\"todo-title\">TODOS APP</h5>\n    <p class=\"text-sm-center\">This Demo showcases a simple workflow with VueJS, Axios and Laravel. </p>\n    <input\n      type=\"text\"\n      class=\"form-control todo-field\"\n      v-model=\"newTodo.title\"\n      placeholder=\"New Todo\"\n      @keyup.enter=\"addTodo\"\n    >\n    <div class=\"todo-block scroll-pane\">\n      <ul class=\"todo-list\" v-show=\"todos.length\">\n        <li\n          v-for=\"(todo,index) in todos\" :key=\"index\">\n          <input\n            type=\"checkbox\"\n            class=\"toggle\"\n            :id=\"index\"\n            :true-value=\"1\"\n            :false-value=\"0\"\n            v-model=\"todo.completed\"\n            @:change=\"toggleTodoComplete(todo)\"\n          >\n          <label :for=\"index\">{{ todo.title }}</label>\n          <a href=\"#\" class=\"remove-link\" @:click.prevent=\"removeTodo(todo)\">\n            <i class=\"icon-fa icon-fa-close\"/>\n          </a>\n        </li>\n      </ul>\n    </div>\n  </div>\n</template>\n\n<script>\nexport default {\n  props: {\n    yourTodos: {\n      type: Array,\n      required: true\n    }\n  },\n  data () {\n    return {\n      newTodo: {\n        id: '',\n        title: '',\n        completed: false\n      },\n      todos: []\n    }\n  },\n  mounted () {\n    this.todos = this.yourTodos\n  },\n  methods: {\n    addTodo () {\n      let vm = this\n      let url = '/admin/todos'\n\n      if (vm.newTodo.title === '') {\n        return\n      }\n\n      axios.post(url, vm.newTodo).then(\n        function (request) {\n          // toastr['success'](request.data, \"Success\");\n\n          vm.todos.push({\n            id: request.data.todo.id,\n            title: request.data.todo.title,\n            completed: false\n          })\n          vm.newTodo = {\n            id: '',\n            title: '',\n            completed: false\n          }\n        },\n        function (error) {\n          alert(error)\n        }\n      )\n    },\n\n    removeTodo (todo) {\n      let url = '/admin/todos/' + todo.id\n      let vm = this\n\n      axios.post(url, { _method: 'DELETE' }).then(function (request) {\n        let index = vm.todos.indexOf(todo)\n        vm.todos.splice(index, 1)\n      },\n      function (error) {\n        console.log(error)\n      })\n    },\n\n    toggleTodoComplete (todo) {\n      let url = '/admin/todos/toggleTodo/' + todo.id\n      let vm = this\n\n      axios.post(url, { completed: todo.completed }).then(function (request) {\n        console.log(request)\n      },\n      function (error) {\n        console.log(error)\n      })\n    }\n  }\n}\n</script>\n\n<style>\n.todo-container {\n  background-color: #ffde00;\n  padding: 50px;\n  min-height: 500px;\n}\n\n.todo-field:focus {\n  border: 1px solid #ccc;\n}\n\n.todo-title {\n  font-family: \"Roboto\", sans-serif;\n  font-weight: lighter;\n  text-align: center;\n}\n\n.todo-block h6 {\n  text-align: center;\n  text-transform: uppercase;\n  color: gray;\n}\n\n.remove-link {\n  color: #f35a3d;\n  position: absolute;\n  top: 0;\n  line-height: 50px;\n  right: 5px;\n}\n\n.remove-link:hover {\n  color: #f35a3d;\n}\n\n.todo-block {\n  background: #fff;\n  padding: 0.375rem 0.75rem;\n  margin-top: 30px;\n  height: 200px;\n  overflow: auto;\n}\n\n.todo-list {\n  list-style: none;\n  padding: 0;\n  font-size: 20px;\n}\n\n.todo-list li {\n  border-bottom: 1px solid #d9d9d9;\n  padding: 10px;\n  position: relative;\n}\n\n.todo-list li label {\n  padding-left: 70px;\n  margin: 0;\n  color: #333;\n}\n\n.todo-list li input[type=\"checkbox\"] {\n  outline: none;\n  text-align: center;\n  width: 40px;\n  height: 40px;\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  margin: auto 0;\n  border: none;\n  -webkit-appearance: none;\n  appearance: none;\n}\n\n.todo-list li .toggle:after {\n  content: url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" viewBox=\"-10 -18 100 135\"><circle cx=\"50\" cy=\"50\" r=\"50\" fill=\"none\" stroke=\"#333\" stroke-width=\"3\"/></svg>');\n}\n\n.todo-list li .toggle:checked:after {\n  content: url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" viewBox=\"-10 -18 100 135\"><circle cx=\"50\" cy=\"50\" r=\"50\" fill=\"none\" stroke=\"#333\" stroke-width=\"3\"/><path fill=\"#4fc47f\" d=\"M72 25L42 71 27 56l-4 4 20 20 34-52z\"/></svg>');\n}\n\n@media (max-width: 768px) {\n  .todos-container {\n    display: none;\n  }\n}\n</style>\n"],"sourceRoot":""}]);
 
 // exports
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":false}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/admin/js/components/BarChart.vue":
+/***/ "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/admin/js/components/BarChart.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/css-base.js")(true);
 // imports
 
 
 // module
-exports.push([module.i, "\n.graph-container {\n  height: 300px;\n}\n", ""]);
+exports.push([module.i, "\n.graph-container {\n  height: 300px;\n}\n", "", {"version":3,"sources":["C:/laca/project/sebesviz_vue/resources/admin/js/components/BarChart.vue"],"names":[],"mappings":";AAwDA;EACA,cAAA;CACA","file":"BarChart.vue","sourcesContent":["<template>\n  <div class=\"graph-container\">\n    <canvas id=\"graph\" ref=\"graph\" />\n  </div>\n</template>\n\n<script>\n\nexport default {\n  props: {\n    labels: {\n      type: Array,\n      required: true\n    },\n    values: {\n      type: Array,\n      required: true\n    }\n  },\n\n  mounted () {\n    let context = this.$refs.graph.getContext('2d')\n\n    let options = {\n      responsive: true,\n      maintainAspectRatio: false,\n      legend: {\n        display: false\n      }\n    }\n\n    let data = {\n      labels: this.labels,\n      datasets: [\n        {\n          label: 'My First dataset',\n          backgroundColor: 'rgba(79, 196, 127,0.2)',\n          borderColor: 'rgba(79, 196, 127,1)',\n          borderWidth: 1,\n          hoverBackgroundColor: 'rgba(79, 196, 127,0.4)',\n          hoverBorderColor: 'rgba(79, 196, 127,1)',\n          data: this.values\n        }\n      ]\n    }\n\n    let myBarChart = new Chart(context, {\n      type: 'bar',\n      data: data,\n      options: options\n    })\n  }\n}\n</script>\n\n<style>\n.graph-container {\n  height: 300px;\n}\n</style>\n"],"sourceRoot":""}]);
 
 // exports
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":false}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/admin/js/components/LineChart.vue":
+/***/ "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/admin/js/components/LineChart.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/css-base.js")(true);
 // imports
 
 
 // module
-exports.push([module.i, "\n.graph-container {\n  height: 300px;\n}\n", ""]);
+exports.push([module.i, "\n.graph-container {\n  height: 300px;\n}\n", "", {"version":3,"sources":["C:/laca/project/sebesviz_vue/resources/admin/js/components/LineChart.vue"],"names":[],"mappings":";AAmEA;EACA,cAAA;CACA","file":"LineChart.vue","sourcesContent":["<template>\n  <div class=\"graph-container\">\n    <canvas id=\"graph\" ref=\"graph\" />\n  </div>\n</template>\n\n<script>\nexport default {\n  props: {\n    labels: {\n      type: Array,\n      required: true\n    },\n    values: {\n      type: Array,\n      required: true\n    }\n  },\n\n  mounted () {\n    let context = this.$refs.graph.getContext('2d')\n\n    let options = {\n      responsive: true,\n      maintainAspectRatio: false,\n      legend: {\n        display: false\n      }\n    }\n\n    let data = {\n      labels: this.labels,\n      datasets: [\n        {\n          label: 'Sales',\n          fill: false,\n          lineTension: 0.1,\n          backgroundColor: 'rgba(0,125,204,0.4)',\n          borderColor: 'rgba(0,125,204,1)',\n          borderCapStyle: 'butt',\n          borderDash: [],\n          borderDashOffset: 0.0,\n          borderJoinStyle: 'miter',\n          pointBorderColor: 'rgba(75,192,192,1)',\n          pointBackgroundColor: '#fff',\n          pointBorderWidth: 1,\n          pointHoverRadius: 5,\n          pointHoverBackgroundColor: 'rgba(75,192,192,1)',\n          pointHoverBorderColor: 'rgba(220,220,220,1)',\n          pointHoverBorderWidth: 2,\n          pointRadius: 1,\n          pointHitRadius: 10,\n          data: this.values\n        }\n      ]\n    }\n\n    let myLineChart = new Chart(context, {\n      type: 'line',\n      data: data,\n      options: options\n    })\n  }\n}\n</script>\n\n<style>\n.graph-container {\n  height: 300px;\n}\n</style>\n"],"sourceRoot":""}]);
 
 // exports
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":false}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/admin/js/components/PieChart.vue":
+/***/ "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/admin/js/components/PieChart.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/css-base.js")(true);
 // imports
 
 
 // module
-exports.push([module.i, "\n.graph-container {\n  height: 300px;\n}\n", ""]);
+exports.push([module.i, "\n.graph-container {\n  height: 300px;\n}\n", "", {"version":3,"sources":["C:/laca/project/sebesviz_vue/resources/admin/js/components/PieChart.vue"],"names":[],"mappings":";AAwDA;EACA,cAAA;CACA","file":"PieChart.vue","sourcesContent":["<template>\n  <div class=\"graph-container\">\n    <canvas id=\"graph\" ref=\"graph\" />\n  </div>\n</template>\n\n<script>\nexport default {\n  props: {\n    labels: {\n      type: Array,\n      required: true\n    },\n    values: {\n      type: Array,\n      required: true\n    },\n    bgColors: {\n      type: String,\n      required: true\n    },\n    hoverBgColors: {\n      type: String,\n      required: true\n    }\n  },\n\n  mounted () {\n    let context = this.$refs.graph.getContext('2d')\n\n    let options = {\n      responsive: true,\n      maintainAspectRatio: false\n    }\n\n    let data = {\n      labels: this.labels,\n      datasets: [\n        {\n          data: this.values,\n          backgroundColor: this.bgColors,\n          hoverBackgroundColor: this.hoverBgColors\n        }\n      ]\n    }\n\n    let myPieChart = new Chart(context, {\n      type: 'pie',\n      data: data,\n      options: options\n    })\n  }\n}\n</script>\n\n<style>\n.graph-container {\n  height: 300px;\n}\n</style>\n"],"sourceRoot":""}]);
 
 // exports
 
@@ -20516,24 +20516,24 @@ if (false) {
 
 /***/ }),
 
-/***/ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":false}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/admin/js/apps/TodosApp.vue":
+/***/ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/admin/js/apps/TodosApp.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__("./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":false}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/admin/js/apps/TodosApp.vue");
+var content = __webpack_require__("./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/admin/js/apps/TodosApp.vue");
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var add = __webpack_require__("./node_modules/vue-style-loader/lib/addStylesClient.js").default
-var update = add("8c7b4d7c", content, false, {});
+var update = add("398f179f", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":false}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./TodosApp.vue", function() {
-     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":false}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./TodosApp.vue");
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js?sourceMap!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./TodosApp.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js?sourceMap!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./TodosApp.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -20544,24 +20544,24 @@ if(false) {
 
 /***/ }),
 
-/***/ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":false}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/admin/js/components/BarChart.vue":
+/***/ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/admin/js/components/BarChart.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__("./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":false}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/admin/js/components/BarChart.vue");
+var content = __webpack_require__("./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/admin/js/components/BarChart.vue");
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var add = __webpack_require__("./node_modules/vue-style-loader/lib/addStylesClient.js").default
-var update = add("02709204", content, false, {});
+var update = add("e59d08ca", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":false}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./BarChart.vue", function() {
-     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":false}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./BarChart.vue");
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js?sourceMap!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./BarChart.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js?sourceMap!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./BarChart.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -20572,24 +20572,24 @@ if(false) {
 
 /***/ }),
 
-/***/ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":false}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/admin/js/components/LineChart.vue":
+/***/ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/admin/js/components/LineChart.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__("./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":false}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/admin/js/components/LineChart.vue");
+var content = __webpack_require__("./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/admin/js/components/LineChart.vue");
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var add = __webpack_require__("./node_modules/vue-style-loader/lib/addStylesClient.js").default
-var update = add("7b00d250", content, false, {});
+var update = add("160be3ad", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":false}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./LineChart.vue", function() {
-     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":false}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./LineChart.vue");
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js?sourceMap!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./LineChart.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js?sourceMap!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./LineChart.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -20600,24 +20600,24 @@ if(false) {
 
 /***/ }),
 
-/***/ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":false}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/admin/js/components/PieChart.vue":
+/***/ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/admin/js/components/PieChart.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__("./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":false}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/admin/js/components/PieChart.vue");
+var content = __webpack_require__("./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/admin/js/components/PieChart.vue");
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var add = __webpack_require__("./node_modules/vue-style-loader/lib/addStylesClient.js").default
-var update = add("333b55de", content, false, {});
+var update = add("7cb5cb0a", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":false}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./PieChart.vue", function() {
-     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":false}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./PieChart.vue");
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js?sourceMap!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./PieChart.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js?sourceMap!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./PieChart.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -31994,7 +31994,7 @@ var app = new window.Vue({
 var disposed = false
 function injectStyle (context) {
   if (disposed) return
-  __webpack_require__("./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":false}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/admin/js/apps/TodosApp.vue")
+  __webpack_require__("./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/admin/js/apps/TodosApp.vue")
 }
 /* script */
 
@@ -32098,7 +32098,7 @@ if (token) {
 var disposed = false
 function injectStyle (context) {
   if (disposed) return
-  __webpack_require__("./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":false}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/admin/js/components/BarChart.vue")
+  __webpack_require__("./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/admin/js/components/BarChart.vue")
 }
 /* script */
 
@@ -32157,7 +32157,7 @@ if (false) {(function () {
 var disposed = false
 function injectStyle (context) {
   if (disposed) return
-  __webpack_require__("./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":false}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/admin/js/components/LineChart.vue")
+  __webpack_require__("./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/admin/js/components/LineChart.vue")
 }
 /* script */
 
@@ -32270,7 +32270,7 @@ if (false) {(function () {
 var disposed = false
 function injectStyle (context) {
   if (disposed) return
-  __webpack_require__("./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":false}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/admin/js/components/PieChart.vue")
+  __webpack_require__("./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-compiler/index.js?{\"optionsId\":\"0\",\"vue\":true,\"scoped\":false,\"sourceMap\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/admin/js/components/PieChart.vue")
 }
 /* script */
 
@@ -32563,3 +32563,4 @@ module.exports = __webpack_require__("./resources/front/sass/front.scss");
 /***/ })
 
 /******/ });
+//# sourceMappingURL=app.js.map

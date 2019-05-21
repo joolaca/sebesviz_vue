@@ -1,150 +1,31 @@
 // Plugins
-@import '../../plugins/bootstrap/scss/bootstrap';
+//@import '../../plugins/bootstrap/scss/bootstrap';
 // @import '../../plugins/fontawesome/font-awesome';
 // @import '../../plugins/toastr/toastr.scss';
-// @import '../../plugins/notie/notie.scss';
-
-/*
-|--------------------------------------------------------------------------
-| Base
-|--------------------------------------------------------------------------
-*/
-
-body {
-  font-family: 'Roboto',sans-serif;
-  color: lighten(#444,15%);
-}
-
-h1,h2,h3,h4,h5,h6{
-  color: #444;
-  font-weight: normal;
-}
-
-.btn-cta{
-  padding: 6px 60px;
-  border-radius: 20px;
-}
 
 
-.btn-action{
-  background-color: #FFDE00;
-  color: #444;
-
-  &:hover {
-    background-color: darken(#FFDE00,5%);
-    color: #444;
-  }
-}
+// Google Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:400,700);
 
 
-/*
-|--------------------------------------------------------------------------
-| Layout
-|--------------------------------------------------------------------------
-*/
 
-.site-header {
-  background-color: #FFDE00;
-  height: 60px;
-  left: 0;
-  padding: 12px 15px;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  text-align: left;
-  z-index: 80;
-}
+@import '../../plugins/bootstrap_3_3_4/bootstrap.css';
+@import '../../plugins/lightgallery/css/lightgallery.css';
+@import '../../plugins/fontawesome/font-awesome.scss';
 
-.brand-main {
-  img {
-    height: 25px;
-    padding-top: 6px;
-  }
-}
+/****** common **********/
+@import '/common/tuche.scss';
+@import '/common/animation.scss';
+@import '/common/button.scss';
+@import '/common/main.scss';
+@import '/common/navigation.scss';
+@import '/common/ribbons.scss';
 
-.logo-main{
-  width: 300px;
-}
+/****** pages **********/
 
-.action-list {
-  float: right;
-  list-style: none;
-  margin: 0;
+@import '/page/main/index_carousel.scss';
+@import '/page/main/index_page.scss';
 
-  li {
-    display: block;
-    float: left;
-    position: relative;
-    height: 36px;
-    margin: 0;
-    padding: 0 4px;
-
-    a {
-      background-color: #333333;
-      border-radius: 2px;
-      color: #FFFFFF;
-      display: inline-block;
-      font-size: 14px;
-      line-height: 14px;
-      padding: 11px;
-      text-decoration: none;
-    }
-
-    a:hover {
-      background-color: lighten(#333333,5%);
-      color: #FFFFFF;
-    }
-
-  }
-
-  .avatar {
-    padding: 0;
-    background-color: transparent;
-  }
-
-  .avatar img {
-    width: 36px;
-    border-radius: 2px;
-  }
-
-  .dropdown-menu {
-    background-color: #333333;
-
-    i {
-      width: 25px;
-      text-align: center;
-      margin-left: -5px;
-    }
-
-  }
-
-}
-
-/*
-|--------------------------------------------------------------------------
-| Sections
-|--------------------------------------------------------------------------
-*/
-
-
-.section {
-  padding: 80px 0;
-}
-
-.section-head{
-  margin-bottom: 40px;
-  border-bottom: 2px solid #FFDE00;
-  display: inline-block;
-  line-height: 50px;
-  padding: 0 20px;
-}
-
-.section-hero-area h1{
-  margin-bottom: 30px;
-}
-
-.section-hero-area {
-  position: relative;
-  padding-top: 100px;
-}
-
+@import '/page/gallery.scss';

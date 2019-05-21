@@ -1,0 +1,132 @@
+
+#accommodation_container{
+    background: url(/assets/front/img/main/bg_cloth2.jpg);
+    background-color: white;
+    padding: 0;
+    margin-bottom: 60px;
+    overflow: hidden;
+}
+
+#accommodation_text_container{
+    padding: 30px;
+}
+
+#accommodation_img_container{
+    padding: 0;
+}
+
+
+#accommodation_container h1 {
+    color: #241b18;
+    font-family: "Oswald";
+    font-size: 34px;
+    font-weight: normal;
+    margin: 0 0 24px;
+    text-align: center;
+    text-shadow: 1px 1px #fff;
+}
+
+#accommodation_img{
+    height: 370px;
+
+    background-image: url(/assets/front/img/example/luca-bravo-177552-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center top;
+
+}
+
+#accommodation_container  #details_container{
+    display: flex;
+    align-items:stretch;
+}
+
+#accommodation_container .item{
+    background-color: #4b3a33;
+    margin: 0;
+    padding: 0;
+}
+
+#accommodation_container .item img{
+    width: 100%;
+}
+#accommodation_container .item:nth-child(2) {
+    background-color: #241b18;
+}
+
+#accommodation_container #details_container p{
+    color: white;
+}
+#accommodation_container h4 {
+    color: #ffc947;
+    font-family: "Oswald";
+    font-weight: normal;
+    margin: 0 0 6px;
+    text-transform: uppercase;
+}
+
+#accommodation_container .details{
+    padding: 35px;
+}
+
+#rec_container{
+    margin-bottom: 70px;
+}
+
+#rec_container img{
+    width: 100%;
+}
+#rec_container .details{
+    text-align: center;
+    /*background-color: #4b3a33;*/
+
+}
+
+#rec_container .details:nth-child(2) {
+    /*background-color: #241b18;*/
+}
+
+#rec_container .details h3{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#rec_container .details_container:hover{
+    -webkit-box-shadow: 0px 0px 31px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 31px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 31px 1px rgba(0,0,0,0.75);
+}
+
+
+#price_container{
+    margin-bottom: 50px;
+}
+
+#rec2_container{
+    color: white;
+    padding: 70px 0;
+}
+#rec2_container img {
+    width: 250px;
+    position: absolute;
+    left: -20px;
+    top: -95px;
+}
+#rec2_container .details_container {
+    position: relative;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #4b3a33;
+    background: url(/assets/front//img/main/bg_cloth4.jpg);
+    border-radius: 25px;
+    padding-top: 30px;
+    -webkit-box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,0.75);
+}
+
+

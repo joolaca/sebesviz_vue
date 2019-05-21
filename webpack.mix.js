@@ -8,6 +8,7 @@ let mix = require('laravel-mix')
 
 var pluginPath = 'resources/plugins/'
 
+
 mix.combine([
   // ** Required Plugins **
   pluginPath + 'jquery/jquery.js',
@@ -89,6 +90,7 @@ mix.combine([
 })
 
 .version()
+.sourceMaps()
 .webpackConfig({
     resolve:{
       alias:{
@@ -102,6 +104,11 @@ mix.combine([
 |--------------------------------------------------------------------------
 */
 
+<!-- lightgallery todo-->
+// <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+
+
+var frontPath = 'resources/front/'
 mix.combine([
   // ** Required Plugins **
   pluginPath + 'jquery/jquery.js',
@@ -110,12 +117,31 @@ mix.combine([
   pluginPath + 'toastr/toastr.js',
   pluginPath + 'notie/notie.js',
 
+    'https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js',
+    pluginPath + 'lightgallery/js/lightgallery-all.js',
+    pluginPath + 'lightgallery/js/lightGallery_init.js',
+
+    pluginPath + 'template/SmoothScroll.js',
+    pluginPath + 'template/jquery.isotope.js',
+    pluginPath + 'template/SmoothScroll.js',
+    pluginPath + 'template/jqBootstrapValidation.js',
+    pluginPath + 'template/wow.min.js',
+    pluginPath + 'template/wow_init.js',
+    pluginPath + 'template/main.js',
+
   // Notifs
-  pluginPath + 'laraspace/laraspace-notifs.js'
+  pluginPath + 'laraspace/laraspace-notifs.js',
+
+
+
+
 ], 'public/assets/front/js/plugins.js')
 
-.sass('resources/front/sass/front.scss', 'public/assets/front/css/')
-
+.sass(frontPath+'sass/front.scss', 'public/assets/front/css/')
+.webpackConfig({
+    devtool: 'source-map'
+})
+.sourceMaps()
 .options({
     processCssUrls: false
 })

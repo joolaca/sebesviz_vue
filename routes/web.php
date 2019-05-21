@@ -9,7 +9,7 @@
 */
 
 Route::get('/', [
-    'as' => 'home', 'uses' => 'FrontendController@home'
+    'as' => 'home', 'uses' => 'MainPageController@index'
 ]);
 
 /*
@@ -33,7 +33,7 @@ Route::group([
     Route::group(['prefix' => 'pages'], function () {
 
         Route::get('main', [
-            'as' => 'admin.pages.main', 'uses' => 'MainPageController@index'
+            'as' => 'admin.pages.main', 'uses' => 'MainPageController@indexAdmin'
         ]);
         Route::post('get_main_page_elemet', [
             'as' => 'admin.pages.get_main_page_elemet', 'uses' => 'MainPageController@getMainPageElemet'

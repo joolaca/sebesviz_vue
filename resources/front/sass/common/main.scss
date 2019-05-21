@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url('/fonts/Oswald.eot'); /* IE9+ Compat Modes */
+    src: url('/fonts/Oswald.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('/fonts/Oswald.woff') format('woff'), /* Modern browsers */
+    url('/fonts/Oswald.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('/fonts/Oswald.svg#Oswald') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'QuattrocentoSans-Regular';
+    src: url('/fonts/QuattrocentoSans-Regular.eot'); /* IE9+ Compat Modes */
+    src: url('/fonts/QuattrocentoSans-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('/fonts/QuattrocentoSans-Regular.woff') format('woff'), /* Modern browsers */
+    url('/fonts/QuattrocentoSans-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('/fonts/QuattrocentoSans-Regular.svg#QuattrocentoSans-Regular') format('svg'); /* Legacy iOS */
+}
+body {
+    background: #211917 url(/assets/front/img/main/bg-body.png) repeat-y center top;
+    font-family: "QuattrocentoSans-Regular";
+    margin: 0;
+    color: #626161;
+}
+
+.section_box{
+    background-color: white;
+    padding: 10px;
+
+    -webkit-box-shadow: 0px 0px 31px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 31px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 31px 1px rgba(0,0,0,0.75);
+}
+.section_box_title{
+    background: url(/assets/front/img/main/bg_cloth2.jpg);
+    background-repeat: repeat;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin: 10px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    border-radius: 10px;
+    text-shadow: 2px -1px #000;
+
+}
+.separator{
+    background: url(/assets/front/img/main/separator-light.png) repeat-x left bottom;
+    padding: 0 0 10px;
+}
+
+#footer h3 {
+    color: #ffc947;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#footer .copyrights {
+    background-color: #e2b241;
+    padding: 20px 0;
+    margin-top: 50px;
+    /*padding: 20px 0;
+    margin-top: 50px;
+    background: rgb(226,178,65);
+    background: -moz-linear-gradient(top, rgba(226,178,65,1) 0%, rgba(226,178,65,1) 50%);
+    background: -webkit-linear-gradient(top, rgba(226,178,65,1) 0%, rgba(142,182,64,1) 50%);
+    background: linear-gradient(to bottom, rgba(255, 236, 100, 1) 0%, rgba(255, 171, 35, 1) 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2b241', endColorstr='#8eb640', GradientType=0 );*/
+}

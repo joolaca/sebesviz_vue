@@ -121,13 +121,14 @@ mix.combine([
     pluginPath + 'lightgallery/js/lightgallery-all.js',
     pluginPath + 'lightgallery/js/lightGallery_init.js',
 
+
     pluginPath + 'template/SmoothScroll.js',
     pluginPath + 'template/jquery.isotope.js',
-    pluginPath + 'template/SmoothScroll.js',
     pluginPath + 'template/jqBootstrapValidation.js',
+
     pluginPath + 'template/wow.min.js',
     pluginPath + 'template/wow_init.js',
-    pluginPath + 'template/main.js',
+
 
   // Notifs
   pluginPath + 'laraspace/laraspace-notifs.js',
@@ -136,6 +137,7 @@ mix.combine([
 
 
 ], 'public/assets/front/js/plugins.js')
+.js('resources/front/js/app.js', 'public/assets/front/js/core/')
 
 .sass(frontPath+'sass/front.scss', 'public/assets/front/css/')
 .webpackConfig({
@@ -145,5 +147,11 @@ mix.combine([
 .options({
     processCssUrls: false
 })
-
-.version();
+.version()
+.webpackConfig({
+    resolve:{
+        alias:{
+            '@' : __dirname+'/resources'
+        }
+    }
+});

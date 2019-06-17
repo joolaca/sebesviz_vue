@@ -22,7 +22,7 @@
 
     import CommonMainPage from './CommonMainPage.vue'
 
-    import LacaTest from '@/front/main_page/Recommendation/recommendation_element.vue'
+    import LacaTest from '@/front/vue/main_page/LacaTest.vue'
 
 
     export default {

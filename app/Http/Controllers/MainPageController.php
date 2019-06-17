@@ -10,7 +10,7 @@ class MainPageController extends Controller
 
     public function index(){
         $gallery_example_url = '/gallery_example';
-        return view('front/main/content', compact('gallery_example_url'));
+        return view('front/main_page/content', compact('gallery_example_url'));
     }
     public function indexAdmin(){
         return view('admin.main_page.index');

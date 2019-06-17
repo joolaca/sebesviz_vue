@@ -34,6 +34,15 @@ window.Vue.component('todos-app', TodosApp)
 /****************************************
  * Main Page admin
  ****************************************/
+import Recommendation from './main_page/Recommendation.vue'
+window.Vue.component('recommendation-section', Recommendation)
+
+import Test from './main_page/Test.vue'
+window.Vue.component('test-section', Test)
+
+import CommonMainPage from './main_page/CommonMainPage.vue'
+window.Vue.component('common_main_page', CommonMainPage)
+
 
 
 let app = new window.Vue({

@@ -20,8 +20,6 @@
         <div class="mobile-menu-overlay"></div>
         @include('admin.layouts.partials.sidebar',['type' => 'default'])
 
-        @yield('content')
-
         @include('admin.layouts.partials.footer')
         @if(config('laraspace.skintools'))
             @include('admin.layouts.partials.skintools')
